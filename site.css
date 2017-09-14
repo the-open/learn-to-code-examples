@@ -1,0 +1,49 @@
+body {
+  font-family: sans-serif;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: auto;
+}
+
+.left-side {
+  width: 50%;
+  margin-right: 5%;
+  float: left;
+}
+.right-side {
+  width: 40%;
+  float: left;
+}
+blockquote {
+  border-left: 5px solid whitesmoke;
+  padding-left: 10px;
+  margin-left: 0;
+  font-style: italic;
+  font-family: 'Georgia', serif;
+  font-size: 1.2rem;
+}
+
+.button {
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 24px;
+  width: 300px;
+  background-color: orange;
+  text-decoration: none;
+  color: white;
+}
+.button:hover {
+  background-color: red;
+}
+
+header, footer {
+  color: white;
+  padding: 20px;
+  clear: both;
+}
+header {
+  background-color: darkcyan;
+}
+footer {
+  background-color: gray;
+}
